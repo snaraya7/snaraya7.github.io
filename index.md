@@ -1,1 +1,166 @@
-compiling please wait...
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <title>Shrikanth N C (Site under construction)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Jon Barron</name>
+              </p>
+              <p>I am pursuing my PhD in Computer Science at North Carolina State University. I am advised by <a href="http://menzies.us/">Dr. Tim Menzies</a>.
+              </p>
+              <p align=center>
+                <a href="mailto:nc.shrikanth@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/Shrikanth-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/Shrikanth-bio.txt">Biography</a> &nbsp/&nbsp
+                <a href="https://scholar.google.co.in/citations?user=HZRpl2oAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/shrikanthnc/"> LinkedIn </a>
+              </p>
+            </td>
+            <td width="33%">
+              <img src="images/Shrikanth_circle.jpg">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in software engineering, machine learning, statistics, optimization. I have also worked in astronomy and biology. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Teaching Assistant</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="images/pacman.jpg" alt="pacman" width="160" height="160"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="">
+                  <papertitle>CSC510 - Fall 2018 </papertitle>
+                </a>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  Website's template from <a href="https://jonbarron.info/"><strong>Jon Barron</strong></a>
+                  </font>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+          } catch (err) {}
+        </script>
+        </td>
+    </tr>
+  </table>
+</body>
+
+</html>
