@@ -225,6 +225,7 @@ methodology for enterprise software development using crowdsourcing .</a>(CSI-SE
   // Create a DataSet (allows two way data-binding)
   var items = new vis.DataSet([
     {id: 1, content: 'Born (millenial + 1)', start: '1986'},
+    {id: 7, content: 'High School', start:'2001'},
     {id: 2, content: 'Engineer', start: '2008'},
     {id: 3, content: 'Infosys', start: '2008', end:'2011'},
     {id: 4, content: 'ABB', start: '2011', end:'2013'},
@@ -240,29 +241,27 @@ methodology for enterprise software development using crowdsourcing .</a>(CSI-SE
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);
 
-  window.onload = function() {
 
-  var chart = new CanvasJS.Chart("chartContainer", {
-  	animationEnabled: true,
-  	title: {
-  		text: ""
-  	},
-  	data: [{
-  		type: "pie",
-  		startAngle: 0,
-  		yValueFormatString: "##0.00\"%\"",
-  		indexLabel: "{label} {y}",
-  		dataPoints: [
-  			{y: 28, label: "Industry"},
-  			{y: 9.3, label: "Research"},
-  			{y: 56, label: "Education"},
-  			{y: 6, label: "PhD Student"},
+  // Load google charts
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
 
-  		]
-  	}]
-  });
-  chart.render();
+  // Draw the chart and set the chart values
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
 
+    ['Education', 18],
+    ['Research', 4],
+    ['PhD', 2],
+    ['Industry', 9]
+  ]);
+
+    // Optional; add a title and set the width and height of the chart
+    var options = {'title':'My Average Day', 'width':550, 'height':400};
+
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+    chart.draw(data, options);
 }
 
 
